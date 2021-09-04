@@ -2,20 +2,24 @@
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
+body {
+    background-color: steelblue;
+}
+
 header {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     background-color: rgb(114, 108, 108);
     align-items: center;
-    border-radius: 0px 0px 15px 15px;
+    border: 10px outset grey;
+    border-radius: 20px 0 20px 0;
     padding: 40px;
 }
 
 h1 {
     font-size: x-large;
     color: rgb(16, 16, 250);
-    background-color: black;
 }
 
 nav ul {
@@ -33,3 +37,24 @@ a {
     text-decoration: none;
     color: rgb(16, 16, 250);
 }
+
+img {
+    width: 100%;
+    height: 200px;
+}
+
+head {
+    font-style: bold;
+}
+
+.image-subtitle {
+    position: absolute;
+    right: 32px;
+    bottom: 136px;
+    text-align: center;
+    color: white;
+    text-shadow: -1px 0 rgb(7, 64, 252), 0 1px rgb(7, 64, 252), 1px 0 rgb(7, 64, 252), 0 -1px rgb(7, 64, 252);
+    font-size: 50px;
+    
+}
+
