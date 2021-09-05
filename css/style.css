@@ -69,10 +69,7 @@ h2 {
 
 }
 
-.about-me p {
-    display: flex;
-}
-
+.about-me p,
 .work p {
     display: flex;
 }
