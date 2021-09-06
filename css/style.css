@@ -58,8 +58,10 @@ img {
 
 h2 {
     font-size: 50px;
-    border-right: solid;
-    padding-right: 30px;
+}
+
+.dividing-line {
+    border-left: 5px solid black;
 }
 
 .about-me,
@@ -72,20 +74,23 @@ h2 {
 .work {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: flex-start;
     align-items: center;
+    height: 700px;
 }
 
 .work img {
     border: 5px solid brown;
+    width: 100px;
+    height: 100px;
+    margin: auto;
 }
 
 
-.about-me p,
-.work p {
+.about-me p {
     display: flex;
     align-items: center;
-    padding-left: 100px;
+    width: 100%;
 }
 
 .contact-me ul {
@@ -93,12 +98,23 @@ h2 {
     align-items: center;
     justify-content: space-around;
     flex-wrap: wrap;
+    width: 100%;
 }
 
-.contact-me li {
-    padding-left: 100px;
-    
+aside {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 100%;
+    padding-left: 200px;
 }
+
+.pic1 {
+    flex-basis: 100%;
+}
+
+
 
 
 
