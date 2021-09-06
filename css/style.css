@@ -1,5 +1,6 @@
 * {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    scroll-behavior: smooth;
 }
 
 body {
@@ -56,13 +57,16 @@ img {
     left: 25px;
 }
 
-h2 {
-    font-size: 50px;
+.title {
+    text-align: right;
+    margin-right: 20px;
+    border-right: 5px solid black;
+    padding: 20px;
+    flex: 1;
+    font-size: 70px;
 }
 
-.dividing-line {
-    border-left: 5px solid black;
-}
+
 
 .about-me,
 .contact-me {
@@ -76,7 +80,7 @@ h2 {
     flex-direction: row;
     justify-content: flex-start;
     align-items: center;
-    height: 700px;
+    height: 400px;
 }
 
 .work img {
@@ -110,9 +114,6 @@ aside {
     padding-left: 200px;
 }
 
-.pic1 {
-    flex-basis: 100%;
-}
 
 
 
