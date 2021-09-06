@@ -60,16 +60,26 @@ h2 {
     font-size: 50px;
     border-right: solid;
     padding-right: 30px;
-    text-align: right;
 }
 
 .about-me,
-.work,
 .contact-me {
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
 }
+
+.work {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.work img {
+    border: 5px solid brown;
+}
+
 
 .about-me p,
 .work p {
@@ -82,10 +92,12 @@ h2 {
     display: flex;
     align-items: center;
     justify-content: space-around;
+    flex-wrap: wrap;
 }
 
 .contact-me li {
     padding-left: 100px;
+    
 }
 
 
