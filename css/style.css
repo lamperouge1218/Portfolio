@@ -150,6 +150,7 @@ section p {
 .mainwindow {
     max-width: 500px;
     margin: 10px; 
+    flex: 1 0 100%;
 }
 
 .subwindows {
