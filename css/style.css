@@ -56,61 +56,6 @@ div img {
     bottom: 25px;
     left: 25px;
 }
-/* 
-.title {
-    text-align: right;
-    margin-right: 20px;
-    border-right: 5px solid black;
-    padding: 20px;
-    flex: 1;
-    font-size: 70px;
-}
-
-.about-me,
-.contact-me {
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-}
-
-.work {
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-    align-items: center;
-    height: 400px;
-}
-
-.work img {
-    border: 5px solid brown;
-    width: 100px;
-    height: 100px;
-    margin: auto;
-}
-
-
-.about-me p {
-    display: flex;
-    align-items: center;
-    width: 100%;
-}
-
-.contact-me ul {
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    flex-wrap: wrap;
-    width: 100%;
-}
-
-aside {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    width: 100%;
-    padding-left: 200px;
-} */
 
 section {
     display: flex;
@@ -126,7 +71,6 @@ section h2 {
     margin-right: 20px;
     border-right: 5px solid black;
     padding: 20px;
-    flex: 1;
 }
 
 .contact-me ul {
@@ -150,11 +94,13 @@ section p {
 .mainwindow {
     max-width: 500px;
     margin: 10px; 
-    flex: 1 0 100%;
+    flex-grow: 3;
 }
 
 .subwindows {
     max-width: 233px;
+    flex-grow: 1;
+    margin: 10px; 
 }
 
 
