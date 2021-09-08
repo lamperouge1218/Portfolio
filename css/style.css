@@ -76,15 +76,6 @@ main {
     padding-left: 25px;
 }
 
-.work {
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-    margin: 25px;
-}
-
-/* Images CSS will go here*/
-
 .contact-me {
     display: flex;
     flex-direction: row;
@@ -104,6 +95,37 @@ main {
     align-self: center;
     flex-basis: 5%;
 }
+
+
+.work {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    margin: 25px;
+}
+
+/* .work div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+} */
+
+img {
+    margin: 0 10px 10px 10px;
+    border: 5px solid maroon;
+}
+
+.container {
+    position: relative;
+}
+
+.bottomleft {
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+    font-size: 18px;
+}
+/* Images CSS will go here*/
 
 
 
