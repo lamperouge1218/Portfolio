@@ -105,36 +105,6 @@ main {
     flex-basis: 5%;
 }
 
-.larger-image {
-    border: 5px solid maroon;
-    margin: 0 10px 10px 10px;
-    flex-basis: 100%;
-}
-
-.smaller-image {
-    border: 5px solid maroon;
-    margin: 0 10px 10px 10px;
-    background-image: url(../assets/orb.PNG);
-    background-repeat: no-repeat;
-    flex-basis: 50%;
-    
-}
-
-.work div {
-    display: flex;
-    flex-direction: row;  
-    flex-wrap: wrap; 
-    flex: 0 0 80%;
-}
-
-
-.refactor-image {
-    background-image: url(../assets/horiseonsnippet.PNG);
-    background-repeat: no-repeat;
-    flex-basis: 100%;
-    min-height: 600px;
-    width: 100%;
-}
 
 
 
