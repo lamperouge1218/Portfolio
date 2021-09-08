@@ -42,6 +42,13 @@ h1 {
     color: rgb(16, 16, 250);
 }
 
+h2 {
+    background-color: white;
+    border-right: 5px solid black;
+    padding: 50px;
+    font-size: x-large;
+}
+
 nav ul {
     display: flex;
 }
@@ -72,7 +79,7 @@ main {
 .work {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: flex-start;
     margin: 25px;
 }
 
@@ -98,11 +105,17 @@ main {
     flex-basis: 5%;
 }
 
-h2 {
-    background-color: white;
-    border-right: 5px solid black;
-    padding: 50px;
-    font-size: x-large;
+.larger-image {
+    max-width: 500px;
+    border: 5px solid maroon;
+    margin: 0 10px 10px 10px;
+}
+
+.smaller-image {
+    max-width: 233px;
+    height: auto;
+    border: 5px solid maroon;
+    margin: 0 10px 10px 10px;
 }
 
 
