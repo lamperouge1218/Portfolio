@@ -43,6 +43,11 @@ main {
     justify-content: space-evenly;
 }
 
+main section {
+    align-items: center;
+    justify-content: center;
+}
+
 h1 {
     font-size: x-large;
     color: rgb(16, 16, 250);
@@ -53,10 +58,9 @@ h2 {
     color: maroon;
     border-right: 5px solid black;
     padding: 30px;
-    margin: auto;
-    flex: 1;
     text-align: right;
     margin-right: 20px;
+    min-width: 20vw;
 }
 
 nav ul {
