@@ -37,30 +37,9 @@ header {
     padding: 0 0 10px 10px;
 }
 
-main {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-}
-
-main section {
-    align-items: center;
-    justify-content: center;
-}
-
 h1 {
     font-size: x-large;
     color: rgb(16, 16, 250);
-}
-
-h2 {
-    font-size: large;
-    color: maroon;
-    border-right: 5px solid black;
-    padding: 30px;
-    text-align: right;
-    margin-right: 20px;
-    min-width: 20vw;
 }
 
 nav ul {
@@ -72,16 +51,30 @@ nav ul li {
     font-size: large;
 }
 
+main {
+    display: flex;
+    flex-direction: column;
+}
+
 .about-me {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
 }
 
-p {
-    flex-basis: 75%;
-    margin-right: 100px;
+.about-me p {
+    width: 75vw;
+    padding-right: 50px;
+    align-self: center;
 }
+
+.work {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+/* Work CSS will go here*/
 
 .contact-me {
     display: flex;
@@ -89,26 +82,24 @@ p {
     justify-content: space-between;
 }
 
-section ul {
+.contact-me ul {
     display: flex;
     width: 80vw;
-    align-items: center;
-    justify-content: space-around;
-    padding-left: 50px;
+    justify-content: space-evenly;
     flex-wrap: wrap;
+
 }
 
-.work {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
+.contact-me li {
+    align-self: center;
+    flex-basis: 5%;
 }
 
-.work img {
-    height: 25vh;
-    width: 25vw;
-    border: 3px solid maroon;
-    flex: 0 1 300px;
+h2 {
+    background-color: white;
+    margin: 1.5%;
+    border-right: 5px solid black;
+    padding: 50px;
 }
 
 
