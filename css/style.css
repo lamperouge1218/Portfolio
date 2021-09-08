@@ -1,7 +1,6 @@
 * {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     scroll-behavior: smooth;
-    box-sizing: border-box;
 }
 
 body {
@@ -47,6 +46,7 @@ h2 {
     border-right: 5px solid black;
     padding: 50px;
     font-size: x-large;
+    flex: 0 0 20%;
 }
 
 nav ul {
@@ -83,7 +83,7 @@ main {
     margin: 25px;
 }
 
-/* Work CSS will go here*/
+/* Images CSS will go here*/
 
 .contact-me {
     display: flex;
@@ -106,17 +106,36 @@ main {
 }
 
 .larger-image {
-    max-width: 500px;
     border: 5px solid maroon;
     margin: 0 10px 10px 10px;
+    flex-basis: 100%;
 }
 
 .smaller-image {
-    max-width: 233px;
-    height: auto;
     border: 5px solid maroon;
     margin: 0 10px 10px 10px;
+    background-image: url(../assets/orb.PNG);
+    background-repeat: no-repeat;
+    flex-basis: 50%;
+    
 }
+
+.work div {
+    display: flex;
+    flex-direction: row;  
+    flex-wrap: wrap; 
+    flex: 0 0 80%;
+}
+
+
+.refactor-image {
+    background-image: url(../assets/horiseonsnippet.PNG);
+    background-repeat: no-repeat;
+    flex-basis: 100%;
+    min-height: 600px;
+    width: 100%;
+}
+
 
 
 
