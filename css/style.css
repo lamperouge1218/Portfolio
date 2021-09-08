@@ -59,19 +59,21 @@ main {
 .about-me {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: flex-start;
+    margin: 25px;
 }
 
 .about-me p {
     width: 75vw;
-    padding-right: 50px;
     align-self: center;
+    padding-left: 25px;
 }
 
 .work {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    margin: 25px;
 }
 
 /* Work CSS will go here*/
@@ -80,6 +82,7 @@ main {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    margin: 25px;
 }
 
 .contact-me ul {
@@ -97,9 +100,9 @@ main {
 
 h2 {
     background-color: white;
-    margin: 1.5%;
     border-right: 5px solid black;
     padding: 50px;
+    font-size: x-large;
 }
 
 
