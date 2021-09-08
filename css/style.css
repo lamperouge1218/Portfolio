@@ -4,7 +4,7 @@
 }
 
 body {
-    background-color: steelblue;
+    background-color: rgb(11, 41, 65);
 }
 
 header {
@@ -46,6 +46,7 @@ h2 {
     padding: 50px;
     font-size: x-large;
     flex: 0 0 20%;
+    text-align: right;
 }
 
 nav ul {
@@ -62,11 +63,20 @@ main {
     flex-direction: column;
 }
 
+.about-me,
+.work,
+.contact-me {
+    background-color: cornflowerblue;
+    border-radius: 15px;
+    box-shadow: 10px 10px black;
+}
+
 .about-me {
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
     margin: 25px;
+    
 }
 
 .about-me p {
@@ -80,6 +90,7 @@ main {
     flex-direction: row;
     justify-content: space-between;
     margin: 25px;
+    
 }
 
 .contact-me ul {
@@ -100,21 +111,17 @@ main {
     flex-direction: row;
     justify-content: flex-start;
     margin: 25px;
+    
 }
-
-/* .work div {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-} */
 
 img {
     margin: 0 10px 10px 10px;
     border: 5px solid maroon;
+    box-shadow: 10px 10px black;
 }
 
 .lgimage {
-    width: 10em;
+    width: 50em;
 }
 
 .smaller-image {
