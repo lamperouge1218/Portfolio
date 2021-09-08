@@ -42,7 +42,6 @@ h1 {
 }
 
 h2 {
-    background-color: white;
     border-right: 5px solid black;
     padding: 50px;
     font-size: x-large;
@@ -88,7 +87,6 @@ main {
     width: 80vw;
     justify-content: space-evenly;
     flex-wrap: wrap;
-
 }
 
 .contact-me li {
@@ -115,17 +113,17 @@ img {
     border: 5px solid maroon;
 }
 
-.container {
-    position: relative;
+.lgimage {
+    width: 10em;
 }
 
-.bottomleft {
-    position: absolute;
-    bottom: 8px;
-    left: 16px;
-    font-size: 18px;
+.smaller-image {
+    width: 350px;
 }
-/* Images CSS will go here*/
+
+.imagegrid {
+    display: block;
+}
 
 
 
