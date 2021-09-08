@@ -1,6 +1,7 @@
 * {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     scroll-behavior: smooth;
+    box-sizing: border-box;
 }
 
 body {
@@ -19,17 +20,43 @@ header {
 }
 
 .head-image {
-    height: 300px;
+    height: 200px;
     width: 100%;
     margin-bottom: 25px;
     background-image: url(../assets/bluezigzag.jpg);
     background-size: cover;
     background-position: center;
+    display: flex;
+    flex-direction: row;
+}
+
+.image-subtitle {
+    font-size: xx-large;
+    color: white;
+    align-self: flex-end;
+    padding: 0 0 10px 10px;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
 }
 
 h1 {
     font-size: x-large;
     color: rgb(16, 16, 250);
+}
+
+h2 {
+    font-size: large;
+    color: maroon;
+    border-right: 5px solid black;
+    padding: 30px;
+    margin: auto;
+    flex: 1;
+    text-align: right;
+    margin-right: 20px;
 }
 
 nav ul {
@@ -41,19 +68,48 @@ nav ul li {
     font-size: large;
 }
 
-img {
-    max-width: 75%;
+.about-me {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+p {
+    flex-basis: 75%;
+    margin-right: 100px;
+}
+
+.contact-me {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+section ul {
+    display: flex;
+    width: 80vw;
+    align-items: center;
+    justify-content: space-around;
+    padding-left: 50px;
+    flex-wrap: wrap;
 }
 
 .work {
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
+    justify-content: space-around;
 }
 
-@media screen and (max-width: 984px) {
-    .larger-image {
-        width: 100%;
+.work img {
+    height: 25vh;
+    width: 25vw;
+    border: 3px solid maroon;
+    flex: 0 1 300px;
+}
+
+@media (min-width: 984px) {
+    .work img {
+        flex-wrap: wrap;
     }
 }
 
