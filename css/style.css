@@ -107,10 +107,6 @@ section ul {
     flex: 0 1 300px;
 }
 
-@media (min-width: 984px) {
-    .work img {
-        flex-wrap: wrap;
-    }
-}
+
 
 
