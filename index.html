@@ -5,21 +5,22 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Phil Bohn Portfolio</title>
+  <link rel="stylesheet" href="./css/reset.css">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
-  <link rel="stylesheet" href="./css/style.css" />
+  <link rel="stylesheet" href="./css/style.css">
 </head>
 
-<body>
+<body class="has-background-warning">
   <header>
     <div class="hero is-small is-link">
       <div class="hero-body">
-        <h1 class="title">Phil Bohn Portfolio</h1>
+        <h1 class="title has-text-black">Phil Bohn Portfolio</h1>
         <nav>
-          <ul class = "is-flex is-justify-content-flex-end">
-            <li class = "has-text-right"><a href="#aboutlink">About Me</a></li>
-            <li class = "has-text-right"><a href="#worklink">Work</a></li>
-            <li class = "has-text-right"><a href="#contactlink">Contact Me</a></li>
-            <li class = "has-text-right"><a href="resume">Resume</a></li>
+          <ul class="is-flex is-justify-content-flex-end has-text-black">
+            <li class="has-text-right"><a href="#aboutlink">About Me</a></li>
+            <li class="has-text-right"><a href="#worklink">Work</a></li>
+            <li class="has-text-right"><a href="#contactlink">Contact Me</a></li>
+            <li class="has-text-right"><a href="resume">Resume</a></li>
           </ul>
         </nav>
       </div>
@@ -28,41 +29,58 @@
 
   <main>
     <div class=" about-me columns">
-      <h2 id=aboutlink class="column is-3 has-text-right">About Me</h2>
-      <p class="column is-9">I graduated with a BS in Music Education from Duquesne University in 2013. I taught in
-        Pittsburgh Catholic
-        Grade Schools and at a local High School for about 5-6 years. I have not taught in schools since that high
-        school job and currently am working in Tech Support for ZOLL Medical Corporation working specifically with the
-        LifeVest, a wearable defibrillator. I took this Boot Camp to prepare for a career pivot into CS and am very
-        excited to start working on an App design with a coder friend. In my free time, I enjoy video and tabletop
-        gaming, reading, watching movies/TV shows, and I am an avid follower of the Pittsburgh Penguins hockey team.
-      </p>
+      <div class="column is-3 has-text-right">
+        <h2 id=aboutlink>About Me</h2>
+      </div>
+
+      <div class="column">
+        <p>I graduated with a BS in Music Education from Duquesne University in 2013. I taught in
+          Pittsburgh Catholic Grade Schools and at a local High School for about 5-6 years. I have not taught in schools
+          since that high
+          school job and currently am working in Tech Support for ZOLL Medical Corporation working specifically with the
+          LifeVest, a wearable defibrillator. I took this Boot Camp to prepare for a career pivot into CS and am very
+          excited to start working on an App design with a coder friend. In my free time, I enjoy video and tabletop
+          gaming, reading, watching movies/TV shows, and I am an avid follower of the Pittsburgh Penguins hockey team.
+        </p>
+      </div>
+
     </div>
 
-    <section class="work columns">
+    <div class="work columns">
       <h2 id="worklink" class="column has-text-right is-3">Work</h2>
       <div class="column is-9">
-        <a href="https://lamperouge1218.github.io/Homework01/" target="_blank"><img src="./assets/horiseonsnippet.PNG"
-            alt="Horiseon Refactor Project" class="image column is-half is-offset-one-quarter">
-        </a>
-        <div class="columns is-justify-content-center">
-          <a href="placeholder" target="_blank"><img src="assets/orb.PNG" class="column" alt="orb"></a>
+        <div class="columns is-multiline">
+          <div class="column is-full">
+            <a href="https://nazikbestcoder.github.io/Pack-Rat/" target="_blank"><img
+                src="./assets/packratscreenshot.PNG" alt="Pack Rat Project" class="image p-0">
+            </a>
+          </div>
+          <div class="column is-half">
+            <a href="https://lamperouge1218.github.io/Weather-Dashboard/" target="_blank"><img
+                src="./assets/weatherdashboardscreenshot.PNG" class="image p-0"
+                alt="Weather Dashboard Screenshot"></a>
+          </div>
 
 
+          <div class="column is-half">
+            <a href="https://lamperouge1218.github.io/Daily-Planner/" target="_blank"><img
+                src="./assets/workdayscreenshot.PNG" class="image p-0" alt="Workday App Screenshot"></a>
 
-
-          <a href="placeholder" target="_blank"><img src="assets/orb.PNG" class="column" alt="orb"></a>
+          </div>
         </div>
-    </section>
+
+      </div>
+    </div>
 
     <div class="contact-me columns">
-      <h2 id="contactlink" class = "column is-3 has-text-right">Contact</h2>
+      <h2 id="contactlink" class="column is-3 has-text-right">Contact</h2>
       <div class="column is-9 columns is-justify-content-center">
-        <ul class = "is-flex is-align-items-center">
-          <li class = "has-text-right">412.427.5439</li>
-          <li class = "has-text-right"><a href="mailto:philbohn1791@gmail.com">philbohn1791@gmail.com</a></li>
-          <li class = "has-text-right" ><a href="https://github.com/lamperouge1218" target="_blank">GitHub</a></li>
-          <li class = "has-text-right"><a href="https://www.linkedin.com/in/phil-bohn-02b1236a/" target="_blank">LinkedIn</a></li>
+        <ul class="is-flex is-align-items-center">
+          <li class="has-text-right">412.427.5439</li>
+          <li class="has-text-right"><a href="mailto:philbohn1791@gmail.com">philbohn1791@gmail.com</a></li>
+          <li class="has-text-right"><a href="https://github.com/lamperouge1218" target="_blank">GitHub</a></li>
+          <li class="has-text-right"><a href="https://www.linkedin.com/in/phil-bohn-02b1236a/"
+              target="_blank">LinkedIn</a></li>
         </ul>
       </div>
     </div>

@@ -1,9 +1,27 @@
+* {
+    scroll-behavior: smooth;
+}
+
 li {
     margin-left: 30px;
 }
 
 h2 {
     font-size:xx-large;
+}
+
+.hero {
+    background-image: url("../assets/headerimage.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+img {
+    border: 5px solid black;
+}
+
+body {
+    background-color: chartreuse;
 }
 
 /* * {
